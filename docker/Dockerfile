@@ -21,6 +21,7 @@ RUN pip3 install torch
 RUN pip3 install transformers
 RUN pip3 install fugashi
 RUN pip3 install ipadic
+RUN pip3 install autopep8
 
 # WORKDIRを設定
 WORKDIR /root
