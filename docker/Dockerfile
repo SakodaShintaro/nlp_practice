@@ -16,6 +16,7 @@ RUN apt-get install sudo -y \
  && apt-get install vim -y \
  && apt-get install python3 -y \
  && apt-get install python3-pip -y
+ && apt-get install wget -y
 
 RUN pip3 install torch
 RUN pip3 install transformers
